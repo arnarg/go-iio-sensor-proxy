@@ -1,6 +1,6 @@
 package sensorproxy
 
-import "github.com/godbus/dbus"
+import "github.com/godbus/dbus/v5"
 
 type sensorProxy struct {
 	busObject dbus.BusObject
